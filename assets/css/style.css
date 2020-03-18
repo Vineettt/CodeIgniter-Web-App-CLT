@@ -1,0 +1,31 @@
+#home, #team, #player{
+    padding: 2.5rem 0;
+}
+#home .home-box, #teams .box, #matches .box{
+    margin: 1rem 0;
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+#home .home-box img{
+    height: 15rem;
+}
+#teams .box img{
+    height: 12rem;
+}
+#home .home-box a{
+    padding-top: 1rem;
+}
+#home .home-box a, #teams .box a{
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+#home .home-box a:hover, #teams .box a:hover{
+    color: rgba(0,0,0,.5);
+}
+#player h5 span, #matches h6 span, #matches h5 span{
+    font-weight: 400;
+}
+#matches h5 span{font-size: 1rem;}
